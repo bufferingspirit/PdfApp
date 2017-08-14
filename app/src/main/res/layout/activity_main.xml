@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.pdfapp.MainActivity">
+
+    <Button
+        android:onClick="startPDFViewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF Viewer" />
+    <Button
+        android:text="Open Dialog"
+        android:onClick="startPictureDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Timer"
+        android:onClick="startTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="PANIC_DEFAULT"
+        android:onClick="panicDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="PANIC_CUSTOM"
+        android:onClick="panicCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Notification"
+        android:onClick="startNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Cancel Notification"
+        android:onClick="cancelNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
